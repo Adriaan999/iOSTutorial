@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		411C23F32B07626F00C787E7 /* LaunchDetails.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 411C23F22B07626F00C787E7 /* LaunchDetails.graphql */; };
+		411C23F52B07678F00C787E7 /* Login.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 411C23F42B07678F00C787E7 /* Login.graphql */; };
+		411C23F72B07696800C787E7 /* AuthorizationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411C23F62B07696800C787E7 /* AuthorizationInterceptor.swift */; };
+		411C23F92B076A3800C787E7 /* NetworkInterceptorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411C23F82B076A3800C787E7 /* NetworkInterceptorProvider.swift */; };
+		411C23FB2B076E5000C787E7 /* BookTrip.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 411C23FA2B076E5000C787E7 /* BookTrip.graphql */; };
+		411C23FD2B076EF700C787E7 /* CancelTrip.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 411C23FC2B076EF700C787E7 /* CancelTrip.graphql */; };
+		411C23FF2B0771CF00C787E7 /* TripsBooked.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 411C23FE2B0771CF00C787E7 /* TripsBooked.graphql */; };
+		412111992B0648E000C61900 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 412111982B0648E000C61900 /* Apollo */; };
+		4121119B2B0648E000C61900 /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 4121119A2B0648E000C61900 /* ApolloWebSocket */; };
+		4121119D2B064C2A00C61900 /* LaunchList.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 4121119C2B064C2A00C61900 /* LaunchList.graphql */; };
+		412111A12B064CE900C61900 /* RocketReserverAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 412111A02B064CE900C61900 /* RocketReserverAPI */; };
+		412111A32B064DCB00C61900 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412111A22B064DCB00C61900 /* Network.swift */; };
 		66EEA7802A13C9AD00BB8C72 /* schema.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = 66EEA77F2A13C9AD00BB8C72 /* schema.graphqls */; };
 		66F96F9B29FAC0D600713B80 /* RocketReserverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F96F9A29FAC0D600713B80 /* RocketReserverApp.swift */; };
 		66F96F9D29FAC0D600713B80 /* LaunchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F96F9C29FAC0D600713B80 /* LaunchListView.swift */; };
@@ -25,6 +37,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		411C23F22B07626F00C787E7 /* LaunchDetails.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = LaunchDetails.graphql; sourceTree = "<group>"; };
+		411C23F42B07678F00C787E7 /* Login.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Login.graphql; sourceTree = "<group>"; };
+		411C23F62B07696800C787E7 /* AuthorizationInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationInterceptor.swift; sourceTree = "<group>"; };
+		411C23F82B076A3800C787E7 /* NetworkInterceptorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterceptorProvider.swift; sourceTree = "<group>"; };
+		411C23FA2B076E5000C787E7 /* BookTrip.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = BookTrip.graphql; sourceTree = "<group>"; };
+		411C23FC2B076EF700C787E7 /* CancelTrip.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = CancelTrip.graphql; sourceTree = "<group>"; };
+		411C23FE2B0771CF00C787E7 /* TripsBooked.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = TripsBooked.graphql; sourceTree = "<group>"; };
+		4121119C2B064C2A00C61900 /* LaunchList.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = LaunchList.graphql; sourceTree = "<group>"; };
+		4121119F2B064C8000C61900 /* RocketReserverAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RocketReserverAPI; sourceTree = "<group>"; };
+		412111A22B064DCB00C61900 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		66EEA77F2A13C9AD00BB8C72 /* schema.graphqls */ = {isa = PBXFileReference; lastKnownFileType = text; path = schema.graphqls; sourceTree = "<group>"; };
 		66F96F9729FAC0D600713B80 /* RocketReserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketReserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F96F9A29FAC0D600713B80 /* RocketReserverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketReserverApp.swift; sourceTree = "<group>"; };
@@ -46,7 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412111A12B064CE900C61900 /* RocketReserverAPI in Frameworks */,
 				66F96FD629FADBB700713B80 /* SDWebImageSwiftUI in Frameworks */,
+				4121119B2B0648E000C61900 /* ApolloWebSocket in Frameworks */,
+				412111992B0648E000C61900 /* Apollo in Frameworks */,
 				66F96FDA29FADCC800713B80 /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,10 +79,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4121119E2B064C8000C61900 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4121119F2B064C8000C61900 /* RocketReserverAPI */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		66EEA77E2A13C94400BB8C72 /* graphql */ = {
 			isa = PBXGroup;
 			children = (
 				66EEA77F2A13C9AD00BB8C72 /* schema.graphqls */,
+				4121119C2B064C2A00C61900 /* LaunchList.graphql */,
+				411C23F22B07626F00C787E7 /* LaunchDetails.graphql */,
+				411C23F42B07678F00C787E7 /* Login.graphql */,
+				411C23FA2B076E5000C787E7 /* BookTrip.graphql */,
+				411C23FC2B076EF700C787E7 /* CancelTrip.graphql */,
+				411C23FE2B0771CF00C787E7 /* TripsBooked.graphql */,
 			);
 			path = graphql;
 			sourceTree = "<group>";
@@ -65,6 +104,7 @@
 		66F96F8E29FAC0D600713B80 = {
 			isa = PBXGroup;
 			children = (
+				4121119E2B064C8000C61900 /* Packages */,
 				66EEA77E2A13C94400BB8C72 /* graphql */,
 				66F96F9929FAC0D600713B80 /* RocketReserver */,
 				66F96F9829FAC0D600713B80 /* Products */,
@@ -95,6 +135,9 @@
 				66F96FE929FC183200713B80 /* NotificationView.swift */,
 				66F96F9E29FAC0D700713B80 /* Assets.xcassets */,
 				66F96FA029FAC0D700713B80 /* Preview Content */,
+				412111A22B064DCB00C61900 /* Network.swift */,
+				411C23F62B07696800C787E7 /* AuthorizationInterceptor.swift */,
+				411C23F82B076A3800C787E7 /* NetworkInterceptorProvider.swift */,
 			);
 			path = RocketReserver;
 			sourceTree = "<group>";
@@ -133,6 +176,9 @@
 			packageProductDependencies = (
 				66F96FD529FADBB700713B80 /* SDWebImageSwiftUI */,
 				66F96FD929FADCC800713B80 /* KeychainSwift */,
+				412111982B0648E000C61900 /* Apollo */,
+				4121119A2B0648E000C61900 /* ApolloWebSocket */,
+				412111A02B064CE900C61900 /* RocketReserverAPI */,
 			);
 			productName = RocketReserver;
 			productReference = 66F96F9729FAC0D600713B80 /* RocketReserver.app */;
@@ -165,6 +211,7 @@
 			packageReferences = (
 				66F96FD429FADBB700713B80 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				66F96FD829FADCC800713B80 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				412111972B0648E000C61900 /* XCRemoteSwiftPackageReference "apollo-ios" */,
 			);
 			productRefGroup = 66F96F9829FAC0D600713B80 /* Products */;
 			projectDirPath = "";
@@ -181,7 +228,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				66F96FA229FAC0D700713B80 /* Preview Assets.xcassets in Resources */,
+				411C23F52B07678F00C787E7 /* Login.graphql in Resources */,
 				66EEA7802A13C9AD00BB8C72 /* schema.graphqls in Resources */,
+				4121119D2B064C2A00C61900 /* LaunchList.graphql in Resources */,
+				411C23FF2B0771CF00C787E7 /* TripsBooked.graphql in Resources */,
+				411C23FD2B076EF700C787E7 /* CancelTrip.graphql in Resources */,
+				411C23FB2B076E5000C787E7 /* BookTrip.graphql in Resources */,
+				411C23F32B07626F00C787E7 /* LaunchDetails.graphql in Resources */,
 				66F96F9F29FAC0D700713B80 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,7 +251,10 @@
 				66F96FEA29FC183200713B80 /* NotificationView.swift in Sources */,
 				66F96FC729FACE1A00713B80 /* DetailView.swift in Sources */,
 				66F96FDC29FAE88E00713B80 /* LaunchListViewModel.swift in Sources */,
+				411C23F72B07696800C787E7 /* AuthorizationInterceptor.swift in Sources */,
+				412111A32B064DCB00C61900 /* Network.swift in Sources */,
 				66F96FE829FC0D7700713B80 /* View+Alert.swift in Sources */,
+				411C23F92B076A3800C787E7 /* NetworkInterceptorProvider.swift in Sources */,
 				66F96FC529FAC7F200713B80 /* LaunchRow.swift in Sources */,
 				66F96FE029FAFB9600713B80 /* LoginView.swift in Sources */,
 				66F96F9B29FAC0D600713B80 /* RocketReserverApp.swift in Sources */,
@@ -405,6 +461,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		412111972B0648E000C61900 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.7.0;
+			};
+		};
 		66F96FD429FADBB700713B80 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
@@ -424,6 +488,20 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		412111982B0648E000C61900 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 412111972B0648E000C61900 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		4121119A2B0648E000C61900 /* ApolloWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 412111972B0648E000C61900 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloWebSocket;
+		};
+		412111A02B064CE900C61900 /* RocketReserverAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RocketReserverAPI;
+		};
 		66F96FD529FADBB700713B80 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 66F96FD429FADBB700713B80 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
